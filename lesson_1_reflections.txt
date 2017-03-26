@@ -1,0 +1,19 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+ It showed differences between the two versions of the files at one place with + and - sign for addition and removal so it is easy to track the bug.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+ Having easy access to the entire history of a file makes us able to go back to version we feel was right when the current versions become corrupted for some reason, we can also track the progress of our work.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+ Pros:
+ We can decide when a commit is necessary.
+ We can create commits after removing a bug, that allows better tracking of the bug.
+ We can create commits after new logical feature or change is added.
+ We can compare two commits using diff properly because we ourselves have created the commits.
+ Cons:
+ Hassle of taking decision when to commit.
+ We may forget to commit and loose our work due to system crash.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+ In a project there might be multiple files realted to one another so changing some part of one file might effect some other files also, so Git allow multiple files commit. While for Google Docs in most cases we are working on a single file, so each file is treated seperately.
+How might using version control make you more confident to make changes that could break something?
+We can make changes that we want without the fear of breaking something because we can go back to a previous correct version very easily.
+Now that you have your workspace set up, what do you want to try using Git for?
+To complete this course, anyway was using git for my office work. Just wanted to know the concepst well.
