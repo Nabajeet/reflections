@@ -4,8 +4,7 @@ We should use a remote repository when we have multiple users or machines workin
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-
-    Fill in your answer here
+We might be working on something and automatic updation might overwrite our changes.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
