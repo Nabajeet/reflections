@@ -8,18 +8,18 @@ We might be working on something and automatic updation might overwrite our chan
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-
-    Fill in your answer here
+Forks are used to make a copy of a project in our own git repository so that the original project is not disturbed by our changes.
+Clones are used to make a copy of a repository in our local system.
+Branches are used simply for naming or pointing to a commit in a particular point of time so that we can refer to it easily.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+Having the last known copy of reote stored locally helps us keep the changes in the remote without merging our current work with it. This helps us in comparing our work and with the latest code also we can implement the remote changes locally later offline.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    Fill in your answer here
+To collaborate without Git or GitHub we will need to manually share the files we have changed between different contributors also we will need to use seperate third party comaprison tools and compare the files which two people have changed simultaneously.
+Yes, it would be quite harder.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
