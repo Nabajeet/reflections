@@ -23,5 +23,12 @@ Yes, it would be quite harder.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
+We would want to create a seperate branch rather than working directly in master when we are working on some experimental feature and do not want to corrupt the original project. Also we can switch between different branches working on different features easily without disturbing the original project.
+Advantages of branching:
+1. We can work on our own changes without fear of corrupting the original project.
+2. We can easily check the differences between the branch and master.
+3. We can easily switch to the master or another branch when some task comes in those.
+Advantages of working in master:
+1. We can directly push the changes without fear of merge conflicts.
+2. We dont need to merge our branch periodically to get changes. Just doing git pull is enough.
 
-    Fill in your answer here
